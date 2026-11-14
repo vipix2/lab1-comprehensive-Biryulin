@@ -2,5 +2,6 @@ import os
 
 
 def apply_discount(price, percent):
-    result = price - price * percent / 100  # this comment makes the line intentionally longer than eighty characters
+    # short comment
+    result = price - price * percent / 100
     return result
